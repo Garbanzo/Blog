@@ -1,0 +1,17 @@
+<% @blogposts.each do |blogpost| %>
+
+	<h1>
+		
+		<%= blogpost.title %>
+	
+	</h1>
+	
+	<p>
+		
+		<%= blogpost.post %>
+		
+	</p>
+	
+	<%= link_to 'Blog Post', blogpost %>
+	
+<% end %>
